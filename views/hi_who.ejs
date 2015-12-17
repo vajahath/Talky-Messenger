@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#2c3e50">
+
+    <title><%= title %></title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./stylesheets/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./misl/Montserrat400700.css" rel="stylesheet" type="text/css">
+    <link href="./misl/Lato400700.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">
+.c-ip{
+    background-color: #2c3e50;
+    font-size: 150%;
+    letter-spacing: 2px;  
+    color: #f39c12;
+    text-align: center;
+}
+.darkb{
+     background-color: #2c3e50;
+     color: #fff;
+}
+.mee{
+    display: inline-block;
+}
+.picdiv
+{
+    margin-top: 35px;
+    /*border: thin #2c3e50 solid;*/
+    /*padding-top: 20px;*/
+    /*border-radius: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*background-color: #2c3e50;*/
+}   
+.orng{
+    background-color: #f39c12;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.imgleft{
+    margin-top: 27px;
+}
+</style>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">talky</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://google.com/+VajahathAhmedAwesome">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <img class="img-responsive" src="./images/profile.png" alt=""> -->
+                    <div class="intro-text">
+                        <span class="onl"><span id="n" class="label label-warning"><%= n %> users online !</span></span><br>
+                        
+                        <span class="name">it's nice to meet you !</span>
+                        <form class="form-horizontal msgin" method="POST">
+                            <div class="input-group col-md-12 col-sm-12 col-xs-12">
+                                <input id="mn" autofocus autocomplete="off" type="text" class="form-control input-lg c-ip" placeholder="yo name..." name="name">
+                                    <input type="submit" class="btn btn-info btn-md orng" value="Start Chat">
+                               
+                            </div>
+                        </form>
+
+                        <div class="row picdiv">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><span class="skills">Talky is an open messaging app.<br>It requires only your nick name to start chat ! Cool hmm..?<br><strong>MULTI-DEVICE LAYOUT</strong></span>
+                            <img width="100%" class="img-rounded img-responsive imgleft" src="./images/75desk.jpg" alt="billy's funny!">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img width="50%" class="img-rounded img-responsive" src="./images/scr1.jpg" alt="billy's funny!"></div>
+                        </div>
+                        <!-- <span class="skills">Talky is an open messaging app.<br>It requires only your nick name to start chat ! Cool hmm..?</span> -->
+                        
+                        <!-- <span class="skills">Developed by <strong>S7 CS</strong></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>How do you feel?</h3>
+                        <p>Give your feedback at vajuoff.1@gmail.com<br>Documentation of this work is available on my <a href="http://mycolorpad.blogspot.in/2015/12/talky-documentation.html">blog</a>. You can also give feedback there.</p>
+                    </div>
+                    
+                    <div class="footer-col col-md-4">
+                        <h3>Thanks</h3>
+                        <p>"I cordially thank all those who contributed to this work.<br>The name 'Talky' was suggested by a friend of mine. Thank you :)<br>There is also a website on internet in the name of 'Talky' which has no connection with this one."<!-- <br><a href="http://google.com/VajahathAhmedAwesome">- Vajahath Ahmed</a>. --></p>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <h3>ME</h3>
+                        <div>
+                            <img width="30%" class="img-circle img-responsive mee" src="./images/me.jpg" alt="vajahath">
+                            <p><a href="http://google.com/+VajahathAhmedAwesome">Vajahath Ahmed</a></p>
+                            <p>Connect with me via <a href="www.mycolorpad.blogspot.in">mycolorpad.blogspot.in</a></p>
+                        </div>
+                        <div class="h100">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.facebook.com/vajahath.vj7" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://google.com/+VajahathAhmedAwesome" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/vajahath7" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/vajahathahmedawesome" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Designed and developed by <a href="http://google.com/+VajahathAhmedAwesome">Vajahath Ahmed</a> | 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="./javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./javascripts/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./javascripts/freelancer.js"></script>
+
+</body>
+
+</html>

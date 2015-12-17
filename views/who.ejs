@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>server auth</title>
+
+<style type="text/css">
+	.err{
+		padding: 3px;
+		color: #FFF;
+		background-color: #FF1E1E;
+		display: inline-block;
+	}
+</style>
+</head>
+<body>
+<p>You typed a reserved name. If you are not admin, go back <a href="/">here</a>. <br>
+If you are admin enter password :)</p>
+<p class="<%=cls%>"><%=err%></p>
+<form method="post">
+	<textarea name="message" placeholder="message" autofocus></textarea>
+	<br>
+	<input type="password" placeholder="password" name="psw">
+	<input type="submit" value="Go">
+</form>
+</body>
