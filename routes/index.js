@@ -1,3 +1,7 @@
+// Auth: Vajahath Ahmed
+// Date: 12/18/2015
+// File: index.js
+// 
 var express = require('express');
 var router = express.Router();
 var session = require('express-session');
@@ -176,3 +180,8 @@ app.get('/test', function(req, res)
 });
 
 module.exports = router;
+
+// Vajahath Ahmeed
+// vajuoff.1@gmail.com
+// google.com/+VajahathAhmedAwesome
+

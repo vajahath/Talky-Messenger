@@ -1,3 +1,7 @@
+// Auth: Vajahath Ahmed
+// Date: 12/18/2015
+// File: app.js
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -82,3 +86,7 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
+// Vajahath Ahmeed
+// vajuoff.1@gmail.com
+// google.com/+VajahathAhmedAwesome
